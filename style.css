@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  padding-top: 50px;
+  padding-top: 0px;
   display: flex;
   width: 90vw;
 }
@@ -28,7 +28,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 70vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
@@ -54,7 +54,7 @@ body {
 .panel.active h3 {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in 0.4s;
-  transition: opacity 0.3s ease-in 0.4s;
+  transition: opacity 300ms ease-in 400ms;
 }
 
 @media(max-width: 480px) {
