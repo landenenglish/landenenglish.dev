@@ -8,11 +8,12 @@ body {
   background-color: #333;
   font-family: 'Muli', sans-serif;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: fle;
+  justify-content:center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  padding-top: 10px;
 }
 
 .container {
