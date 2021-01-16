@@ -6,7 +6,6 @@
 
 body {
   background-color: #333;
-  overflow: hidden;
 }
 
 .container, .panel {
@@ -57,12 +56,3 @@ body {
   transition: opacity 300ms ease-in 400ms;
 }
 
-@media(max-width: 480px) {
-  .container {
-    width: 100vw;
-  }
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
-  }
-}
