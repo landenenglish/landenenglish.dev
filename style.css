@@ -55,7 +55,7 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    padding-top: 10px;
+    padding-top: 100px;
     width: 100vw;
   }
 
